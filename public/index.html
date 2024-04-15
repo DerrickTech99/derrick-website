@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Quattrocento&family=Unna&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-zinc-900">
+    <!-- hero section -->
+    <section id="home">
+      <!-- hero container -->
+      <div class="container mx-auto">
+        <!-- menu/logo container -->
+        <nav
+          class="flex items-center mx-auto p-4 justify-between font-bold text-white">
+          <p class="text-2xl">Derrick.Tech</p>
+
+          <!-- menu -->
+          <div class="hidden h-10 md:flex md:space-x-8">
+            <div class="group">
+              <a href="#home">Home</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-x-blue-50"></div>
+            </div>
+            <div class="group">
+              <a href="#about">About Us</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-x-blue-50"></div>
+            </div>
+            <div class="group">
+              <a href="#testimonial">Testimonial</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-x-blue-50"></div>
+            </div>
+            <div class="group">
+              <a href="#contact">Contact</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-x-blue-50"></div>
+            </div>
+          </div>
+
+          <!--hamburger button -->
+
+          <div class="md:hidden duration-1000">
+            <button
+              id="menu-btn"
+              type="button"
+              class="z-40 block hamburger md:hidden focus:outline-none duration-1000">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+
+        <!-- mobile menu -->
+
+        <div
+          id="menu"
+          class="transition duration-1000 absolute hidden p-6 rounded-lg left-6 right-6 top-14 z-100 bg-slate-600 r">
+          <div
+            class="transition duration-1000 flex flex-col items-center justify-center w-full space-y-6 rounded-sm text-white">
+            <a class="hover:text-blue-500 duration-150" href="#home">Home</a>
+            <a class="hover:text-blue-500 duration-150" href="#about"
+              >About Us</a
+            >
+            <a class="hover:text-blue-500 duration-150" href="#testimonial"
+              >Testimonial</a
+            >
+            <a class="hover:text-blue-500 duration-150" href="#contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hamburger Button -->
+    
+
+    <!-- engaging section -->
+
+    <section id="" class="hero-text pb-56 section duration-1000">
+      <div class="container mx-auto p-6 flex justify-center items-center">
+        <div>
+          <p
+            class="text-center mx-auto text-2xl md:text-5xl text-white md:pt-36">
+            Engaging you with Creative
+            <span class="md:hidden flex justify-center">Design</span>
+          </p>
+          <p
+            class="text-center flex items-center justify-center mx-auto text-2xl md:text-5xl text-white mb-4">
+            <span class="hidden md:block">Design</span>
+          </p>
+
+          <!--  my name -->
+          <p
+            class="text-slate-400 flex justify-center items-center text-2xl mb-1">
+            Welcome To My Website!
+          </p>
+          <p
+            class="text-white flex justify-center items-center p-2 text-2xl md:text-3xl mb-1 bg-blue-500 rounded-full">
+            I'm Derrick Tuffour Mensah
+          </p>
+
+          <p
+            class="flex justify-center items-center text-lg md:text-2xl text-slate-400 mb-4">
+            A Skilled Frontend Developer
+          </p>
+
+          <!-- about our website -->
+          <p class="text-white max-w-lg px-6 mx-auto text-center comfortaa tracking-wide">
+            Welcome to Website! We're thrilled to have you here. Explore,
+            discover, and embark on a journey, whether you're seeking
+            information, inspiration, or simply a virtual space to connect, we
+            hope you find what you're looking for. Feel free to navigate through
+            my pages and make yourself at home. Thank you for being a part of
+            our community!"
+          </p>
+
+          <button
+            class="mx-auto flex justify-center items-center bg-blue-500 p-2 hover:bg-blue-400 hover:duration-200 rounded-md my-4 hover:scale-95 duration-1000" >
+            DISCOVER MORE
+            </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="model" class="pb-56 container mx-auto px-6 section duration-1000 ">
+      <div
+        class="flex flex-col text-white w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12 ">
+        <!--  items 1 -->
+        <div class="flex flex-col p-10 space-y-6 rounded-lg bg-slate-600 md:w-1/3 hover:scale-95 duration-1000">
+          <img class="w-14 mx-auto" src="images/app-development.png" alt="" />
+          <p class="text-2xl flex justify-center items-center p-3">
+            Website Design and Development
+          </p>
+          <p class="mx-auto w-70 comfortaa">
+            We specialize in creating visually appealing and functional websites
+            tailored to your personal brand. Our team ensures a seamless user
+            experience, incorporating modern design trends and responsive
+            layouts to showcase your portfolio effectively
+          </p>
+        </div>
+
+        <!--  items 2 -->
+        <div class="flex flex-col p-10 space-y-6 rounded-lg bg-blue-600 md:w-1/3 hover:scale-95 duration-1000">
+          <img class="w-14 mx-auto" src="images/application.png" alt="" />
+          <p class="text-2xl flex justify-center items-center p-3">
+            Responsive Design Optimization
+          </p>
+          <p class="mx-auto w-70 comfortaa">
+            Ensure your websites adapt seamlessly to various devices and screen
+            sizes. Our services focus on optimizing responsive design, providing
+            an optimal viewing experience for users on desktops, tablets, and
+            smartphones
+          </p>
+        </div>
+
+        <!--  items 3 -->
+        <div class="flex flex-col p-10 space-y-6 rounded-lg bg-slate-600 md:w-1/3 hover:scale-95 duration-1000">
+          <img class="w-14 mx-auto" src="images/3d-film.png" alt="" />
+          <p class="text-2xl flex justify-center items-center p-3">
+            UI/UX Design and Consultation
+          </p>
+          <p class="mx-auto w-70 comfortaa">
+            Elevate the user experience with our UI/UX design expertise. We
+            offer consultation services to enhance the usability and aesthetics
+            of websites, ensuring they not only look great but also provide an
+            intuitive and enjoyable journey for users
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- card section -->
+    <section id="" class="pb-56 section duration-1000">
+      <div
+        class="w-auto flex-col-reverse md:flex-row p-6 flex justify-center lg:ml-52 items-center">
+        <!-- image -->
+        <div class="hover:scale-95 duration-1000">
+          <img
+            class=" w-96 h-96 rounded-md mx-auto md:ml-14" loading="lazy"
+            src="images/tuffour.jpg"
+            alt="" />
+          >
+        </div>
+
+        <!-- content -->
+        <div id="about" class="text-white mx-auto md:ml-24">
+          <p
+            class="text-sm flex justify-center items-center md:flex md:justify-start md:items-start my-3 md:ml-11 lg:w-4/6 font-semibold">
+            WHO WE ARE
+          </p>
+          <p class="lg:w-4/6 mb-3 text-slate-400">
+            We are making the world a better place, one design at a time
+          </p>
+          <p class="md:w-96 mb-4 text-white comfortaa tracking-wide">
+            Hello there! I'm a passionate web designer and frontend developer
+            hailing from Ghana, deeply enamored with the captivating worlds of
+            design and the internet. With a knack for crafting visually stunning
+            websites and intuitive user interfaces, I thrive in the realms of
+            frontend development and branding. I'm always eager to embark on
+            thrilling projects that allow me to channel my creativity and
+            technical skills. Let's create something extraordinary together!
+          </p>
+
+          <button
+            class="mx-auto flex justify-center items-center bg-blue-500 mb-7 p-1 rounded-md text-sm md:ml-2 hover:bg-blue-400 hover:duration-200">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonia
+     -->
+
+    <section id="testimonial" class="section duration-1000">
+      <div class="mx-auto p-7 text-white md:pt-24">
+        <p class="text-2xl flex justify-center items-center p-4">Testimonial</p>
+        <p
+          class="max-w-lg px-6 mx-auto text-center text-slate-400 font-semibold section comfortaa">
+          Our clients consistently express their satisfaction with our work,
+          praising the exceptional quality, dedication, and expertise we bring
+          to every project. Their positive feedback is a testament to our
+          commitment to exceeding expectations and delivering results that truly
+          make a difference.
+        </p>
+      </div>
+    </section>
+
+    <!--  testimonial card -->
+    <section id="testimonial" class="section duration-1000">
+     <!--  testimonail container -->
+     <div class="container mx-auto px-6 pt-12 pb-56">
+     <!--  boxes container -->
+     <div class="relative flex flex-col w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12">
+      <img class="absolute left-1 -top-2 w-10 md:-top-16 md:w-20 filter invert brightness-75" src="images/quote.png" alt="">
+
+      <!-- box 1 -->
+      <div class="flex flex-col p-10 space-y-6 rounded-lg bg-blue-600 md:w-1/3 hover:scale-95 duration-1000 ">
+        <p class=" text-white leading-5 comfortaa tracking-wide ">Working with Derrick.Tech transformed our business. Their meticulous
+          solutions surpassed expectations, elevating operations. Immensely
+          grateful for their innovative approach. Collaboration is
+          instrumental; we anticipate continued success together.</p>
+
+          <!-- customer info -->
+          <div class="flex space-x-4">
+            <img src="images/serwaa.jpg" class="w-10 h-10 rounded-full" alt="">
+
+            <div>
+              <h5 class="text-white font-semibold">Hannah Serwaa Cudjoe</h5>
+            <p class="text-slate-200 font-bold text-sm">October 1, 2023</p>
+            </div>
+            </div>
+
+           
+         
+      </div>
+      <!-- box 2 -->
+      <div class="flex flex-col p-10 space-y-6 rounded-lg bg-slate-600 md:w-1/3  hover:scale-95 duration-1000 ">
+        <p class="text-white leading-5 comfortaa tracking-wide">Working with Derrick.Tech was a pleasure. They adeptly delivered a
+          website reflecting our brand, overcoming challenges smoothly.
+          Delighted with the result, thanks to their dedication and expertise.</p>
+
+          <!-- customer info -->
+          <div class="flex space-x-4">
+            <img src="images/kwame.jpg" class="w-10 h-10 rounded-full" alt="">
+
+            <div>
+              <h5 class="text-white font-semibold"> Jephthah Preprah Mensah</h5>
+            <p class="text-slate-200 font-bold text-sm">April 1, 2024</p>
+            </div>
+            </div>
+
+           
+         
+      </div>
+      <!-- box 3 -->
+      <div class="flex flex-col p-10 space-y-6 rounded-lg bg-blue-600 md:w-1/3 hover:scale-95 duration-1000  ">
+        <p class=" text-white leading-5 comfortaa tracking-wide ">Derrick.Tech excels with professionalism and communication,
+          delivering a visually stunning website beyond expectations. Their
+          commitment and clarity make collaboration a pleasure. They stand out
+          for precision and creativity in bringing ideas to life.</p>
+
+          <!-- customer info -->
+          <div class="flex space-x-4 ">
+            <img src="images/kwadwo.jpg" class="w-10 h-10 rounded-full" alt="">
+
+            <div>
+              <h5 class=" text-white font-semibold">Silas Afriyie Mensah</h5>
+            <p class="text-slate-200 font-bold text-xs">April 20, 2023</p>
+            </div>
+            </div>
+
+           
+         
+      </div>
+
+     </div>
+
+     </div>
+
+     </section>
+
+
+    
+
+    <!-- FAQ Heading -->
+    <section id="faq" class="section duration-1000">
+      <div class="text-white container mx-auto mt-36">
+        <h2 class="mb-6 text-2xl font-semibold text-center">
+          Frequently Asked Question
+        </h2>
+        <p class="max-w-lg px-6 mx-auto text-center text-slate-400 ">
+          Here are some of our FAQS. If you have any other questions you'd like
+          answered, please feel free to email us.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section id="faq-accordion" class="pb-56 section duration-1000">
+      <!-- main content -->
+      <div class="container mx-auto px-6 mb-32">
+        <!-- accaordion container -->
+        <div class="max-w-2xl m-8 mx-auto overflow-hidden">
+          <!-- tab 1 -->
+          <div class="py-1 border-b outline-none group" tabindex="1">
+            <!-- tab flex container -->
+            <div
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
+              <!-- tab title -->
+              <div class="text-white transiton duration-500 ease">
+                How long does it typically take to complete a project?
+              </div>
+              <!-- arrow -->
+              <div class="transition duration-500 ease group-focus:-rotate-180">
+                <img
+                  class="w-18 h-12 filter invert"
+                  src="images/down-arrow.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <!-- tab inner content -->
+            <div
+              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+              <p class="py-2 text-justify text-slate-400">
+                Project timelines vary depending on factors such as project
+                scope, complexity, and client feedback. I aim to deliver
+                high-quality work efficiently and within mutually agreed-upon
+                deadlines.
+              </p>
+            </div>
+          </div>
+
+          <!-- tab 2 -->
+          <div class="py-1 border-b outline-none group" tabindex="2">
+            <!-- tab flex container -->
+            <div
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
+              <!-- tab title -->
+              <div class="text-white transiton duration-500 ease">
+                What is your availability for new projects?
+              </div>
+              <!-- arrow -->
+              <div class="transition duration-500 ease group-focus:-rotate-180">
+                <img
+                  class="w-18 h-12 filter invert"
+                  src="images/down-arrow.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <!-- tab inner content -->
+            <div
+              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+              <p class="py-2 text-justify text-slate-400">
+                My availability varies, but I'm committed to delivering
+                excellent results in a timely manner. Please reach out to
+                discuss your project timeline.
+              </p>
+            </div>
+          </div>
+
+          <!-- tab 3 -->
+          <div class="py-1 border-b outline-none group" tabindex="3">
+            <!-- tab flex container -->
+            <div
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
+              <!-- tab title -->
+              <div class="text-white transiton duration-500 ease">
+                Do you require a deposit or advance payment?
+              </div>
+              <!-- arrow -->
+              <div class="transition duration-500 ease group-focus:-rotate-180">
+                <img
+                  class="w-18 h-12 filter invert"
+                  src="images/down-arrow.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <!-- tab inner content -->
+            <div
+              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+              <p class="py-2 text-justify text-slate-400">
+                Yes, I typically require a 50% deposit upfront to secure your
+                spot in my schedule and commence work on your project.
+              </p>
+            </div>
+          </div>
+
+          <!-- tab 4 -->
+          <div class="py-1 border-b outline-none group" tabindex="4">
+            <!-- tab flex container -->
+            <div
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
+              <!-- tab title -->
+              <div class="text-white transiton duration-500 ease">
+                What happens if I'm not satisfied with the final deliverables?
+              </div>
+              <!-- arrow -->
+              <div class="transition duration-500 ease group-focus:-rotate-180">
+                <img
+                  class="w-18 h-12 filter invert"
+                  src="images/down-arrow.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <!-- tab inner content -->
+            <div
+              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+              <p class="py-2 text-justify text-slate-400">
+                Client satisfaction is my priority, and I strive to deliver
+                high-quality work that meets your expectations. If you're not
+                satisfied with the final deliverables, we'll work together to
+                address any concerns and make necessary revisions until you're
+                happy with the result.
+              </p>
+            </div>
+          </div>
+
+          <!-- tab 5 -->
+          <div class="py-1 border-b outline-none group" tabindex="5">
+            <!-- tab flex container -->
+            <div
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
+              <!-- tab title -->
+              <div class="text-white transiton duration-500 ease">
+                What happens if the project scope changes during the process?
+              </div>
+              <!-- arrow -->
+              <div class="transition duration-500 ease group-focus:-rotate-180">
+                <img
+                  class="w-18 h-12 filter invert"
+                  src="images/down-arrow.png"
+                  alt="" />
+              </div>
+            </div>
+
+            <!-- tab inner content -->
+            <div
+              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+              <p class="py-2 text-justify text-slate-400">
+                If there are changes to the project scope, we'll discuss and
+                adjust accordingly. Any significant changes may result in
+                revisions to the timeline and cost, which will be communicated
+                and agreed upon transparently.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="contact" class="section duration-1000">
+      <div
+        class="text-white flex justify-center flex-col items-center md:flex-row mx-auto p-4 md:gap-32 gap-16 bg-slate-600 pt-20 mt-28 pb-10">
+        <!-- contact details -->
+        <div>
+          <p class="text-2xl font-bold flex justify-center">Get in Touch</p>
+          <a href="mailto:derrickt@expressgroup.uk">Email: derrickt@expressgroup.uk</a>
+          <p>Tel: +233546249603</p>
+        </div>
+
+        <!-- connect -->
+        <div>
+          <p class="text-2xl font-bold flex justify-center">Connect</p>
+          <div class="flex justify-center flex-row gap-3">
+            <a href="https://www.facebook.com/derricktuffour.mensah?mibextid=LQQJ4d" target="_blank"><img class="w-8 hover:scale-95 duration-1000" src="images/facebook.png" alt="" /></a>
+            <a href="https://wa.me/+233546249603" target="_blank"><img class="w-8 hover:scale-95 duration-1000" src="images/whatsapp.png" alt="" /></a>
+            <a href="https://www.tiktok.com/@derricktuffour?_t=8lRiYkooOxC&_r=1" target="_blank"><img class="w-8 hover:scale-95 duration-1000" src="images/tiktok.png" alt="" /></a>
+            <a  href="https://twitter.com/MensahTuffour" target="_blank"><img class="w-8 hover:scale-95 duration-1000" src="images/twitter.png" alt="" /></a>
+            <a href="https://www.instagram.com/derrick_tuffour_mensah?igsh=MXd0enU2Zmxnb2Ziaw%3D%3D&utm_source=qr" target="_blank"
+              ><img class="w-8 hover:scale-95 duration-1000" src="images/instagram.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div>
+          <!--  location -->
+          <p class="text-2xl font-bold">Location</p>
+          <p>Remote</p>
+        </div>
+      </div>
+
+      <!--  navbar -->
+      <div
+        class="flex justify-center items-center gap-3 bg-slate-600 text-white p-4">
+        <a class="hover:text-blue-500" href="#home">Home</a>
+        <a class="hover:text-blue-500" href="#about">About us</a>
+        <a class="hover:text-blue-500" href="#testimonial">Testimonial</a>
+        <a class="hover:text-blue-500" href="#contact">Contact us</a>
+      </div>
+      <div
+        class="bg-slate-600 text-white flex justify-center items-center pb-2">
+        <p class="max-w-lg px-6 mx-auto text-center">
+          ©Copyright 2024 All right reserved. Powered by the Derrick.Tech
+        </p>
+      </div>
+    </section>
+
+    <!--  scrollToTopBtn -->
+    <button
+      id="scrollToTopBtn"
+      class="fixed bottom-10 md:right-4 right-2 bg py-2 px-2 shadow-md hidden bg-white rounded-full">
+      <img class="h-7" src="images/up-arrow.png" alt="" />
+    </button>
+
+ <script src="js/script.js"></script>
+  </body>
+</html>
